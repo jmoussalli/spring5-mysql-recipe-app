@@ -25,5 +25,3 @@ jobs:
       - run : mvn test
       - store_artifacts:
           path:  target
-      - store_test_results:
-          path: /tmp/test-reports
