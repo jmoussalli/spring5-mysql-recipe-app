@@ -5,20 +5,12 @@
 version: 2
 jobs:
   build:
-    docker:
-      # specify the version you desire here
-      - image: circleci/openjdk:8-jdk
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
 
     working_directory: ~/repo
 
-    environment:
-      # Customize the JVM maximum heap limit
-      MAVEN_OPTS: -Xmx3200m
+    docker:
+      # specify the version you desire here
+      - image: circleci/openjdk:8-jdk-stretch
 
     steps: # a collection of executable commands
 
@@ -33,7 +25,7 @@ jobs:
       - save_cache: # saves the project dependencies
           paths:
             - ~/.m2
-          key: my-repo-gihub-ci-{{ checksum "pom.xml" }}
+          key: repo-{{ checksum "pom.xml" }}
 
       - run: mvn package # run the actual tests
 
