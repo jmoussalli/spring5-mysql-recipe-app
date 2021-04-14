@@ -6,9 +6,6 @@
 [![codecov](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/mysql-scripts/graph/badge.svg?token=25ac22c3-99f8-4b5d-bdcd-65a1d31fce86)](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app)
 
 
-[![Code Coverage Sunburst](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/mysql-scripts/graphs/sunburst.svg)](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/mysql-scripts/graphs/sunburst.svg)
-
-
 [![codecov](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/mysql-scripts/graphs/sunburst.svg)](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/mysql-scripts/graphs/sunburst.svg)
 
 [![codecov](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/mysql-scripts/graphs/tree.svg)](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/mysql-scripts/graphs/tree.svg)
