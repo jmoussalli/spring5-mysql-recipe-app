@@ -18,7 +18,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-<!--	<packaging>jar</packaging>-->
+	<packaging>jar</packaging>
 
 	<build>
 		<plugins>
