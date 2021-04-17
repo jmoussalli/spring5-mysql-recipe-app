@@ -1,6 +1,8 @@
 # Spring Boot Recipe Application
 
-[![CircleCI](https://circleci.com/gh/springframeworkguru/spring5-recipe-app.svg?style=svg)](https://circleci.com/gh/springframeworkguru/spring5-recipe-app)
+[![CI](https://circleci.com/gh/jmoussalli/spring5-mysql-recipe-app.svg?style=svg)](https://circleci.com/gh/jmoussalli/spring5-mysql-recipe-app)
+
+[![codecov](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app/branch/schemal-generation-with-hibernate/graph/badge.svg?token=25ac22c3-99f8-4b5d-bdcd-65a1d31fce86)](https://codecov.io/gh/jmoussalli/spring5-mysql-recipe-app)
 
 This repository is for an example application built in my Spring Framework 5 - Beginner to Guru
 
